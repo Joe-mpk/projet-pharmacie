@@ -1,0 +1,33 @@
+.div-header{
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin:40px 100px;
+}
+
+.section-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 90px;
+
+}
+
+.nav-header{
+    display: flex;
+    gap: 1em;
+    justify-content: end;
+    
+}
+
+.ima1{
+    background-image: url("/asset/images/hero_1.jpg");
+    height: 700px;
+     margin-top: 0px;
+    /* padding-left: 120px; */
+    /* padding-right: 120px; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
