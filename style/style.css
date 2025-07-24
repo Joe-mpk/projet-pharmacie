@@ -1,33 +1,112 @@
-.div-header{
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 5px;
-    margin:40px 100px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.section-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-right: 90px;
-
+body, html {
+  font-family: 'Arial', sans-serif;
+  scroll-behavior: smooth;
 }
 
-.nav-header{
-    display: flex;
-    gap: 1em;
-    justify-content: end;
-    
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: white;
+  top: 0;
+  z-index: 10;
 }
 
-.ima1{
-    background-image: url("/asset/images/hero_1.jpg");
-    height: 700px;
-     margin-top: 0px;
-    /* padding-left: 120px; */
-    /* padding-right: 120px; */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  border-bottom: 2px solid transparent;
+}
+
+.nav-menu a:hover, .nav-menu a:focus {
+  border-bottom: 2px solid black;
+}
+
+.icons {
+  font-size: 20px;
+  position: relative;
+}
+
+.badge {
+  background-color: #00FFFF;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 7px;
+  font-size: 12px;
+  position: absolute;
+  top: -8px;
+  right: -10px;
+}
+
+
+.ima {
+  height: 100vh;
+  background:url("/asset/images/hero_1.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.ima::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.ima_cont {
+  position: relative;
+  z-index: 2;
+}
+
+.medecine {
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.bienvenu {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+
+.btn {
+  padding: 15px 30px;
+  background-color: #32f2e4;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #1ccfc4;
 }
