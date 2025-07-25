@@ -21,15 +21,17 @@ body, html {
 }
 
 .logo {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 24px;
-  letter-spacing: 1px;
+  letter-spacing: 4px;
+  font-size: 20px;
 }
 
 .nav-menu {
   list-style: none;
   display: flex;
   gap: 25px;
+  font-size: 14px;
 }
 
 .nav-menu a {
@@ -91,20 +93,21 @@ body, html {
 }
 
 .bienvenu {
-  font-size: 48px;
-  font-weight: bold;
+  font-size: 56px;
+  font-weight: 800;
   line-height: 1.2;
   margin-bottom: 30px;
 }
 
 .btn {
-  padding: 15px 30px;
+  padding: 2em 3em;
   background-color: #32f2e4;
   color: black;
   text-decoration: none;
-  font-weight: bold;
+  /* font-weight: bold; */
   border-radius: 5px;
   transition: background-color 0.3s ease;
+  font-size: 0.9em;
 }
 
 .btn:hover {
