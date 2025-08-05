@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  padding: 0;
+  padding:0;
   box-sizing: border-box;
 }
 
@@ -13,7 +13,7 @@ body, html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 50px;
+  padding: 1.4em 3.5em;
   background-color: white;
   /* position: sticky; */
   top: 0;
@@ -21,10 +21,10 @@ body, html {
 }
 
 .logo {
-  font-weight: 700;
-  font-size: 24px;
+  font-weight: 800;
+  font-size: 1.2em;
   letter-spacing: 4px;
-  font-size: 20px;
+  /* font-size: 20px; */
 }
 
 .nav-menu {
@@ -87,20 +87,21 @@ body, html {
 
 .medecine {
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 0.8em;
   letter-spacing: 2px;
-  margin-bottom: 20px;
+  margin-bottom: 0.5em;
 }
 
 .bienvenu {
   font-size: 56px;
   font-weight: 800;
-  line-height: 1.2;
-  margin-bottom: 30px;
+  /* line-height: 1.2; */
+  margin-bottom: 0.8em;
 }
 
 .btn {
-  padding: 2em 3em;
+  padding: 1.5em 3em;
+  margin-top: 2em;
   background-color: #32f2e4;
   color: black;
   text-decoration: none;
