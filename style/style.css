@@ -127,6 +127,7 @@ body, html {
   top: 46em;
   left: 50%;
   transform: translate(-50%, -50%);
+  margin-bottom: 50em;
 }
 
 .livraison{
