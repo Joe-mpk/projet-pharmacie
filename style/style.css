@@ -14,6 +14,8 @@ body, html {
   justify-content: space-between;
   align-items: center;
   padding: 1.4em 3.5em;
+  margin-left: 1.2em;
+  margin-right: 1.2em;
   background-color: white;
   /* position: sticky; */
   top: 0;
@@ -113,4 +115,44 @@ body, html {
 
 .btn:hover {
   background-color: #1ccfc4;
+}
+
+.action{
+  text-align: center;
+  display: flex;
+  padding-left: 5em;
+  padding-right: 5em;
+  gap: 2em;
+  position: absolute;
+  top: 46em;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.livraison{
+  background-color: #32f2e4;
+  color: white;
+  padding: 2.5em;
+  width: 20em;
+  height: 17em;
+}
+
+.solde{
+   background-color: #50ba35;
+  color: white;
+  padding: 2.5em;
+  width: 20em;
+  height: 17em;
+}
+
+.achat{
+   background-color: gold;
+  color: white;
+  padding: 2.5em;
+  width: 20em;
+  height: 17em;
+}
+
+.h1{
+  padding: 0.7em;
 }
