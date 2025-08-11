@@ -191,3 +191,64 @@ body, html {
     font-size: 0.9em;
     line-height: 1.5;
 }
+
+
+
+
+
+
+.produit-section{
+  /* display: flex;
+  justify-content: center; */
+  margin-top: 23em;
+  text-align: center;
+  padding-left: 10em;
+}
+
+.produit-container{
+  display: flex;
+}
+
+.produit-section h2{
+  font-size: 24px;
+  margin-bottom: 40px;
+  padding-right: 8em;
+}
+
+.badge-vente{
+   position: absolute;
+    top: 97em;
+    left: 3em;
+    background-color: rgb(231, 104, 14);
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    transform: rotate(-90deg);
+    height: 3em;
+    width: 6em;
+    /* position: absolute;
+    left: 4em;
+    top: 105em;
+    transform: translateY(-50%);
+    background-color: rgb(225, 135, 9);
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    height: 7em; */
+}
+
+/* .produits-p h2{
+  position: absolute;
+  /* padding-left: 4em; */
+
+/* .produits-p{
+  margin-top: 20em;
+  justify-content: center;
+  display: flex;
+  font-style: italic;
+  gap: ;
+} */
