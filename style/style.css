@@ -113,27 +113,31 @@ body, html {
   background-color: #1ccfc4;
 }
 
+.action-container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
 .action{
   text-align: center;
   display: flex;
-  padding-left: 5em;
-  padding-right: 5em;
+  /* padding: 0 5em; */
   gap: 2em;
   position: absolute;
-  top: 48em;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin-bottom: 50em;
+  top: -70px;
 }
 
 .service {
-    flex: 1;
-    padding: 2.5em;
-    color: white;
-    text-align: center;
-    border-radius: 0.3em;
-    width: 20em;
-    height: 17em;
+  flex: 1;
+  padding: 2.5em;
+  color: white;
+  text-align: center;
+  border-radius: 0.3em;
+  width: 22em;
+  height: 19em;
 }
 
 .service h3 {
@@ -155,10 +159,12 @@ body, html {
     line-height: 1.5;
 }
 
-.produit-section{
-    margin-top: 32em;
-    text-align: center;
-    font-size: 0.7em;
+/* .produit-section{
+  max-width: 1180px;
+  margin: 0 auto;
+  margin-top: 27em;
+  text-align: center;
+  font-size: 0.7em;
 }
 
 .produit-section h2{
@@ -172,7 +178,6 @@ body, html {
 .produit-container{
     display: flex;
     gap: 10em;
-    padding-left: 10em;
     position: relative;
     margin-bottom: 10em;
 }
@@ -228,9 +233,7 @@ body, html {
 .view-all{
     background-color: #5ce1e6;
     color: black;
-    /* border: none; */
-     padding: 2em 5em;
-    /* font-weight: bold; */
+    padding: 2em 5em;
     border-radius: 5px;
     cursor: pointer;
     height: 3em;
@@ -242,4 +245,62 @@ body, html {
     background-color: azure;
     color: #5ce1e6;
     border-color: #5ce1e6;
+} */
+
+
+/* my styles for product section */
+
+.popular-products{
+  margin-top: 18em;
+}
+
+.popular-products h2{
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+.popular-product-container{
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.product-badge{
+  position: relative;
+  width: 8em;
+}
+
+.sell-badge{
+  position: absolute;
+  top: 2em;
+  background-color: rgb(231, 104, 14);
+  color: white;
+  padding: 1em 1em;
+  font-size: 12px;
+  transform: rotate(-90deg);
+  height: 3em;
+  width: 7em;
+  letter-spacing: 0.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800 !important;
+}
+
+.product-list{
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2em;
+  position: relative;
+}
+
+.product-card{
+  text-align: center;
+}
+
+.middle-badge{
+  position: absolute;
+  bottom: 8em;
+  right: 8em;
 }
