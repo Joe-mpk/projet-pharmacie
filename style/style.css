@@ -127,17 +127,17 @@ body, html {
   /* padding: 0 5em; */
   gap: 2em;
   position: absolute;
-  top: -140px;
+  top: -70px;
 }
 
 .service {
-    flex: 1;
-    padding: 2.5em;
-    color: white;
-    text-align: center;
-    border-radius: 0.3em;
-    /* width: 20em; */
-    height: 17em;
+  flex: 1;
+  padding: 2.5em;
+  color: white;
+  text-align: center;
+  border-radius: 0.3em;
+  width: 22em;
+  height: 19em;
 }
 
 .service h3 {
@@ -159,8 +159,7 @@ body, html {
     line-height: 1.5;
 }
 
-.produit-section{
-  /* background-color: red; */
+/* .produit-section{
   max-width: 1180px;
   margin: 0 auto;
   margin-top: 27em;
@@ -179,7 +178,6 @@ body, html {
 .produit-container{
     display: flex;
     gap: 10em;
-    /* padding-left: 10em; */
     position: relative;
     margin-bottom: 10em;
 }
@@ -235,9 +233,7 @@ body, html {
 .view-all{
     background-color: #5ce1e6;
     color: black;
-    /* border: none; */
-     padding: 2em 5em;
-    /* font-weight: bold; */
+    padding: 2em 5em;
     border-radius: 5px;
     cursor: pointer;
     height: 3em;
@@ -249,7 +245,7 @@ body, html {
     background-color: azure;
     color: #5ce1e6;
     border-color: #5ce1e6;
-}
+} */
 
 
 /* my styles for product section */
