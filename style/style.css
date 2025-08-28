@@ -377,7 +377,7 @@ body, html {
   display: flex;
   justify-content: center;
   padding-left: 7em;
-  gap: 8em;
+  gap: 8em; 
 }
 
 
