@@ -395,3 +395,43 @@ body, html {
   font-weight: normal;
   font-size: 1em;
 }
+
+.Testimonials{
+  background-color: red;
+  margin-top: 80px;
+}
+
+.Testimonials h4{
+  background-color: #4de1e3;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  margin-bottom: 60px;
+}
+
+.testimonial-container{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.person{
+  max-width: 300px;
+  text-align: left;
+}
+
+.person img{
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.person p{
+  background-color: orange;
+  text-align: center;
+}
