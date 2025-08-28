@@ -136,8 +136,8 @@ body, html {
   color: white;
   text-align: center;
   border-radius: 0.3em;
-  width: 22em;
-  height: 19em;
+  width: 21em;
+  height: 18em;
 }
 
 .service h3 {
@@ -251,12 +251,16 @@ body, html {
 /* my styles for product section */
 
 .popular-products{
-  margin-top: 18em;
+  margin-top: 23.7em;
 }
 
 .popular-products h2{
   text-align: center;
-  margin-bottom: 3em;
+  font-size: 1.9em;
+  font-weight: 900;
+  margin-bottom: 0.8em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
 }
 
 .popular-product-container{
@@ -272,14 +276,14 @@ body, html {
 
 .sell-badge{
   position: absolute;
-  top: 2em;
+  top: 7em;
   background-color: rgb(231, 104, 14);
   color: white;
   padding: 1em 1em;
   font-size: 12px;
   transform: rotate(-90deg);
   height: 3em;
-  width: 7em;
+  width: 8em;
   letter-spacing: 0.2em;
   display: flex;
   align-items: center;
@@ -290,8 +294,10 @@ body, html {
 .product-list{
   flex-grow: 1;
   display: grid;
+  place-items: center;
+  left: -5em;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2em;
+  gap: 6em;
   position: relative;
 }
 
@@ -299,8 +305,93 @@ body, html {
   text-align: center;
 }
 
+.product-card h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 1.7em;
+    margin-bottom: 0.5em;
+}
+
+.product-card p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 1em;
+}
+
+.ancien-prix{
+  text-decoration: line-through;
+  color: rgb(21, 1, 1);
+}
+
 .middle-badge{
   position: absolute;
-  bottom: 8em;
-  right: 8em;
+  bottom: 25em;
+  right: 15em;
+}
+
+.all{
+ display: flex;
+ justify-content: center;
+ margin-top: 7em;
+}
+
+.view-all{
+  background-color: #4de1e3;
+  text-align: center;
+  padding: 1.5em 3em;
+  text-decoration: none;
+  border-radius: 0.3em;
+  transition: background-color 0.3s ease;
+  font-size: 0.9em;
+  color: black;
+}
+
+.view-all:hover {
+  background-color: beige;
+}
+
+
+
+
+
+.new-product{
+  background-color: rgb(250, 250, 248);
+  margin-top: 5em;
+}
+
+.new-product h3{
+  padding-top: 3em;
+  text-align: center;
+  font-size: 30px;
+  font-style: initial ;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  margin-bottom: 4em;
+}
+
+.new-product-container{
+  display: flex;
+}
+
+.new-product-list{
+  display: flex;
+  justify-content: center;
+  padding-left: 7em;
+  gap: 8em;
+}
+
+
+.card h4{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 1.7em;
+  margin-bottom: 0.5em;
+}
+
+.card p{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 1em;
 }
